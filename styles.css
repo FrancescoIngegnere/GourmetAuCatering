@@ -1,0 +1,207 @@
+:root{
+    --grigiochiaro: rgb(225, 225, 225)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 5px 5px var(--grigiochiaro);
+    z-index: 2;
+}
+
+.navBarLeft{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+.navBarRight{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.navMenu{
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navBar a{
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    color: black;
+}
+
+.navMenu:hover{
+    background-color: var(--grigiochiaro);
+}
+
+header figure{
+    width: 95%;
+    position: relative;
+    margin: 0 50% 10px 50%;
+    transform: translate(-50%);
+}
+
+main figure img{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+header figure img{
+    width: 100%;
+    position: relative;
+}
+
+header figure figcaption{
+    font-size: 2rem;
+    margin: 20px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: rgb(124, 123, 123);
+    letter-spacing: 0.5rem;
+}
+
+main{
+    width: 75%;
+    margin: 0 auto;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    padding: 80px 0 80px 0;
+    border-bottom: 1px solid var(--grigiochiaro);
+}
+
+section .imgMain{
+    width: 50%;
+}
+
+section .about{
+    width: 50%;
+    padding: 50px;
+}
+
+h2.title{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h4.sottotitolo{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.3rem;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+section p{
+    line-height: 2rem;
+    font-size: 1.1rem;
+    word-spacing: 0.2rem;
+}
+
+p.nero{
+    color: black;
+    margin-bottom: 20px;
+}
+
+p.grigio{
+    color: gray;
+    margin-bottom: 40px;
+}
+
+span.evidenziato{
+    background-color: var(--grigiochiaro);
+    padding: 4px;
+}
+
+article h3{
+    margin-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.5rem;
+}
+
+.contact{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact h2{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+
+.contact p{
+    line-height: 1rem;
+}
+
+.contact h4{
+    color: #607d8b;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.contact label{
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+input.formContact{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid var(--grigiochiaro);
+    margin: 5px 0;
+    padding: 35px 20px;
+    font-size: 1.05rem;
+}
+
+input.button{
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+}
+
+input.button:hover{
+    background-color: var(--grigiochiaro);
+}
+
+footer{
+    background-color: var(--grigiochiaro);
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    line-height: 120px;
+}
+
+footer a {
+    color: black;
+}
+
+/* 
+    | //
+   ( @ @ )
+ooO__(_)__Ooo
+٩(͡๏̯͡๏)۶
+*/
